@@ -1,2 +1,5 @@
+[context.dev]
+environment = { NETLIFY_EXPERIMENTAL_BUILD_RUST_SOURCE = "true" }
+
 [context.production]
 environment = { NETLIFY_EXPERIMENTAL_BUILD_RUST_SOURCE = "true" }
